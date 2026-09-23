@@ -1,0 +1,312 @@
+# -*- coding: utf-8 -*-
+"""Titulars i imatges del blog. Edita aqui sense tocar els .md.
+
+HEAD[num]  = titular gancho (el concepte original queda com a etiqueta)
+IMG[num]   = (fitxer de Wikimedia Commons, autor, llicencia, text alternatiu, object-position)
+Les imatges es serveixen per URL des de Wikimedia Commons (Special:FilePath).
+"""
+
+HEAD = {
+ 1: "Els margers de Mallorca ja feien economia circular. Nosaltres encara hi organitzam congressos",
+ 2: "El soroll et fa malbé la salut cada nit i gairebé ningú no el posa al mapa",
+ 3: "La tipografia «neutral» és una mentida: Helvetica també pren partit",
+ 4: "La millor feina que pot fer un dissenyador és, sovint, no dissenyar res",
+ 5: "Una cadira de 1859 i un desert ple de roba: el preu de voler sempre coses noves",
+ 6: "Si el teu estudi no dona ni el 5% del seu temps, no parlis de compromís social",
+ 7: "L'estàtua feminista de Wall Street la va pagar una firma acusada de cobrar menys a les dones",
+ 8: "Rebel·lar-se ven: com les marques han convertit la teva indignació en producte",
+ 9: "Donar-te d'alta, un clic. Donar-te de baixa, un laberint. No és un error: és disseny",
+ 10: "La IA dibuixa amb la feina d'artistes que no han cobrat ni un euro",
+ 11: "El problema no és la web de l'ajuntament: és que ningú no ha dissenyat el servei",
+ 12: "Una dissenyadora de 26 anys es va disfressar de vella durant tres anys. El que va descobrir encara ens retrata",
+ 13: "Cap disseny bonic no farà assequible una casa a Mallorca",
+ 14: "Els gràfics que han fet més per la justícia que mil discursos",
+ 15: "Els pobles perden la botiga, el banc i el metge. I el disseny mira cap a una altra banda",
+ 16: "Posar post-its amb la gent no és co-dissenyar (i ho saps)",
+ 17: "Feines de merda: el disseny també en fabrica",
+ 18: "Estudiar disseny costa milers d'euros. Endevina qui acaba dissenyant per a tothom",
+ 19: "Una sala de control per dirigir l'economia de Xile: el disseny que ningú no et va explicar",
+ 20: "Fer vergonya a la gent no canvia res. Les campanyes ho continuen fent",
+ 21: "Aquest banc està dissenyat perquè no t'hi puguis ajeure. I a Palma també n'hi ha",
+ 22: "Si no ho pots llegir, no hi tens dret: la lletra petita també exclou",
+ 23: "El refugi d'IKEA va guanyar el premi al disseny de l'any. Després el van haver de retirar",
+ 24: "L'usaràs un minut. Durarà segles. Qui ha dissenyat això?",
+ 25: "Premiat, aplaudit… i un fracàs. Què certifica realment un premi de disseny?",
+ 26: "Construir amb el que tens sota els peus: la lliçó que arriba de la posidònia",
+ 27: "Si et perds a l'hospital, no és culpa teva: és d'un rètol mal pensat",
+ 28: "Els rètols també decideixen quina llengua sobreviu",
+ 29: "Amsterdam va retirar les seves lletres més famoses. Mallorca hauria de prendre nota",
+ 30: "Regala els plànols: el disseny que tothom pot copiar canvia més coses",
+ 31: "Una ciutat on els infants no poden jugar al carrer és una ciutat mal dissenyada",
+ 32: "La foto de l'home amb el cap entre les mans fa mal. I es continua publicant",
+}
+
+IMG = {
+ 1: ("SiurellsMallorca.jpg", "Rafael Ortega Díaz", "CC BY-SA 4.0", "Siurells de fang blancs amb tocs verds i vermells", "50% 55%"),
+ 2: ("Photo The urban police of Milan while using a noise measurement device for sound level control on city streets 1955 - Touring Club Italiano 07 0626.jpg", "Touring Club Italiano", "CC BY-SA 4.0", "Policia urbana de Milà mesurant el soroll al carrer, 1955", "50% 40%"),
+ 3: ("Josef Müller-Brockmann der Film.jpg", "Josef Müller-Brockmann", "Domini públic", "Cartell «Der Film» de Josef Müller-Brockmann", "50% 30%"),
+ 4: ("Repair Cafe by Ilvy Njiokiktjien.jpg", "Ilvy Njiokiktjien", "CC BY-SA 3.0", "Voluntaris reparant objectes en un Repair Café", "50% 40%"),
+ 5: ("Thonet Chair No. 14.JPG", "Henry Townsend", "FAL", "Cadira Thonet núm. 14 de fusta corbada", "50% 45%"),
+ 6: ("Nou equipament de la Fundació Arrels (fotografia 3) (03-01-2023).jpg", "Generalitat de Catalunya", "Reconeixement", "Nou equipament de la Fundació Arrels a Barcelona", "50% 50%"),
+ 7: ("The fearless girl takes on NYSE (47406406981).jpg", "Billie Grace Ward", "CC BY 2.0", "Estàtua de la Fearless Girl davant la Borsa de Nova York", "50% 50%"),
+ 8: ("Times square at night.jpg", "Rafi B.", "CC BY 2.0", "Pantalles publicitàries a Times Square de nit", "50% 50%"),
+ 9: ("Middle-aged woman using a smartphone at home closeup.jpg", "Shixart1985", "CC BY 2.0", "Una dona fent servir el mòbil a casa", "50% 50%"),
+ 10: ("BalticServers data center.jpg", "BalticServers.com", "CC BY-SA 3.0", "Passadís d'un centre de dades amb bastidors de servidors", "50% 50%"),
+ 11: ("Screenshot of gov.uk dated 2023-05-02.png", "GOV.UK", "OGL 3", "Pàgina d'inici del portal GOV.UK", "50% 0%"),
+ 12: ("Elderly Person Reading on the Street of Baranagar 02.jpg", "santanupyne", "CC BY-SA 3.0", "Una persona gran llegint al carrer", "50% 45%"),
+ 13: ("La Borda building - front facade 2.jpg", "VELKEJ LED", "CC BY-SA 4.0", "Façana de fusta de la cooperativa d'habitatge La Borda, Barcelona", "50% 50%"),
+ 14: ("A series of statistical charts illustrating the condition of the descendants of former African slaves now in residence in the United States of America LCCN2013650373.tif", "W. E. B. Du Bois", "Domini públic", "Gràfic estadístic dibuixat a mà per l'equip de W. E. B. Du Bois, 1900", "50% 35%"),
+ 15: ("Fornalutx, Carrer Tramontana.jpg", "Malopez 21", "CC BY-SA 4.0", "Carrer empedrat de Fornalutx, Mallorca", "50% 55%"),
+ 16: ("Inclusive and participatory co-design workshop “progettiamo insieme un menù a base di cultura inclusiva” PATI-2023-07.jpg", "Max Fonseca e Martin Franze / Project PATI", "CC BY-SA 4.0", "Taller de co-disseny participatiu al voltant d'una taula", "50% 50%"),
+ 17: ("Cubicle land.jpg", "Larsinio", "Domini públic", "Oficina plena de cubicles", "50% 50%"),
+ 18: ("Escola d'Art i Superior de Disseny, Velluters, València.jpg", "Joanbanjo", "CC BY-SA 4.0", "Façana d'una escola d'art i disseny a València", "50% 50%"),
+ 19: ("CyberSyn-render-107.png", "Rama", "CC BY-SA 3.0 fr", "Reconstrucció de la sala d'operacions del projecte Cybersyn", "50% 50%"),
+ 20: ("A very superior litter bin - geograph.org.uk - 3716714.jpg", "Anthony O'Neil", "CC BY-SA 2.0", "Una paperera al carrer", "50% 50%"),
+ 21: ("Camden bench.jpg", "The wub", "CC BY-SA 4.0", "Banc de Camden, de formigó i amb superfície inclinada", "50% 50%"),
+ 22: ("Braille Tactile street sign Old Cleveland Rd and Logan Rd Stones Corner P1050172.jpg", "John Robert McPherson", "CC BY-SA 4.0", "Rètol de carrer tàctil amb braille", "50% 50%"),
+ 23: ("Better Shelter Almedalen 2025.jpg", "Bene Riobó", "CC BY-SA 4.0", "Refugi Better Shelter muntat en un espai públic", "50% 55%"),
+ 24: ("Bottle reverse vending machine, Tomra, Latvia, inner view.jpg", "Egilus", "CC BY 4.0", "Interior d'una màquina de retorn d'envasos", "50% 50%"),
+ 25: ("OLPC classroom teaching.JPG", "RudolfSimon", "CC BY-SA 3.0", "Aula amb infants fent servir ordinadors portàtils XO", "50% 45%"),
+ 26: ("Kraeuterzentrum Ricola 2.jpg", "Keimzelle", "CC BY-SA 4.0", "Mur de terra piconada del Kräuterzentrum de Ricola", "50% 50%"),
+ 27: ("Court St signage at New York Transit Museum.jpg", "wctaiwan", "CC BY-SA 4.0", "Senyalística del metro de Nova York", "50% 50%"),
+ 28: ("Bilingual English-Welsh no parking sign.jpg", "Dominic Nelson", "CC BY-SA 4.0", "Rètol bilingüe en gal·lès i anglès", "50% 35%"),
+ 29: ("\"I amsterdam\" sign @ Museumplein @ Amsterdam (15996793468).jpg", "Guilhem Vellut", "CC BY 2.0", "Les lletres «I amsterdam» al Museumplein", "50% 55%"),
+ 30: ("Tanzania-precious-plastic-plank.jpg", "Russs95", "CC BY-SA 4.0", "Tauló de plàstic reciclat fet amb màquines Precious Plastic a Tanzània", "50% 50%"),
+ 31: ("Boys playing street football in Egypt.jpg", "Mohamed Hozyen Ahmed", "CC BY-SA 4.0", "Infants jugant a futbol al carrer", "50% 50%"),
+ 32: ("World Mental Health Day (8057120243).jpg", "Helgi Halldórsson", "CC BY-SA 2.0", "Acte públic pel Dia Mundial de la Salut Mental", "50% 50%"),
+}
+
+# Fotos intercalades dins el text: la primera va abans de la 2a secció, la segona abans de la 3a.
+# (fitxer de Wikimedia Commons, autor, llicència, peu de foto)
+INLINE = {
+ 1: [("Serra de Tramuntana - 8.jpg", "Maria Rosa Ferré", "CC BY-SA 2.0", "Marges i marjades a la Serra de Tramuntana."),
+     ("Roba de llengües.jpg", "Paucabot", "CC BY-SA 4.0", "Roba de llengües: un ikat que es teixeix a Mallorca des de fa segles.", "v")],
+ 2: [("Lärmkarte Flughafen München.png", "Alexrk2", "CC BY-SA 3.0", "Un mapa de soroll oficial: precís, però difícil de llegir per a qui el pateix."),
+     ("Sound level meter at American football game.jpg", "RandomKatze", "CC0", "Un sonòmetre: mesurar el propi carrer canvia la manera de mirar-lo.", "v")],
+ 3: [("1972 Massimo Vignelli Subway Map.jpg", "Michael Cory", "CC BY 2.0", "El mapa del metro de Nova York de Massimo Vignelli, 1972."),
+     ("Valldemossa Plaça de la Cartoixa-3863.jpg", "Isiwal", "CC BY-SA 4.0", "La Cartoixa de Valldemossa, on es conserva la impremta Guasp.")],
+ 4: [("Library of Things, St Mary's Community May Fayre.jpg", "Tim Sheerman-Chase", "CC BY 2.0", "Una biblioteca d'objectes: compartir en lloc de comprar."),
+     ("Electronics Repair Workbench.jpg", "10kdollz", "CC BY-SA 4.0", "Taula de reparació d'electrònica.")],
+ 5: [("1964 Porsche 911 (54643347038).jpg", "Tomás Del Coro", "CC BY-SA 4.0", "Porsche 911 de 1964: seixanta anys de variacions sobre la mateixa forma.")],
+ 6: [("Fundació Deixalles 2013-11-09 12-09.jpg", "Chixoy", "CC BY-SA 3.0", "Fundació Deixalles, a Mallorca."),
+     ("Sorting donations for Grenfell Tower fire victims.jpg", "ChiralJon", "CC BY 2.0", "Voluntaris classificant donacions.")],
+ 7: [("Polar Bear AdF.jpg", "Arturo de Frias Marques", "CC BY-SA 4.0", "Un ós polar: la imatge que moltes marques volen associar al seu producte."),
+     ("Belgique - Bruxelles - Schuman - Berlaymont - 01.jpg", "EmDee", "CC BY-SA 4.0", "El Berlaymont, seu de la Comissió Europea, que prepara normes contra les declaracions verdes enganyoses.")],
+ 8: [("Colin Kaepernick (18391502680).jpg", "Erik Drost", "CC BY 2.0", "Colin Kaepernick."),
+     ("Allyson Felix Doha 2015.jpg", "Doha Stadium Plus Qatar", "CC BY 2.0", "Allyson Felix, Doha 2015.", "v")],
+ 9: [("Epic Games' Headquarters.jpg", "whohoo120", "CC BY 2.0", "Seu d'Epic Games, multada per la FTC per patrons enganyosos.")],
+ 10: [("Stable Diffusion - In the street - 8.jpg", "Stable Diffusion / Tullius Detritus", "Domini públic", "Imatge generada amb Stable Diffusion.", "v"),
+      ("Depiction of a visually impaired person finding their way using a white cane.png", "myUpchar", "CC BY-SA 4.0", "La tecnologia pot eixamplar l'autonomia de les persones cegues.")],
+ 11: [("Design Museum, Kensington - London - DSC01548.jpg", "Daderot", "CC0", "Design Museum de Londres, que va premiar GOV.UK el 2013."),
+      ("UK Road Sign - geograph.org.uk - 5069582.jpg", "Gary", "CC BY-SA 2.0", "Senyal de carretera britànic, sistema de Margaret Calvert i Jock Kinneir.", "v")],
+ 12: [("Elderly Man's Hands (7760356574).jpg", "Tony Alter", "CC BY 2.0", "Conèixer el cos d'una altra persona demana temps."),
+      ("Peeler 01 Pengo.jpg", "Pengo", "CC BY-SA 3.0", "Un pelador: dissenyar per als extrems fa objectes millors per a tothom.")],
+ 13: [("Mallorca Palma from Bellver Castle viewpoint asv2023-04 img2.jpg", "A.Savin", "FAL", "Palma des del castell de Bellver."),
+      ("Noche en Ciutat Vella, Barcelona - 003.jpg", "Nicolas Vigier", "CC0", "Ciutat Vella, Barcelona.")],
+ 14: [("Eyal Weizman - Ars Electronica 2026 - BHO-1210.jpg", "Bernhard Holub", "CC BY-SA 4.0", "Eyal Weizman, fundador de Forensic Architecture.", "v"),
+      ("A series of statistical charts illustrating the condition of the descendants of former African slaves now in residence in the United States of America LCCN2014645361.tif", "W. E. B. Du Bois", "Domini públic", "Un altre dels gràfics de l'equip de Du Bois per a l'Exposició de París de 1900.", "v")],
+ 15: [("Abandoned village Los-Morenos.jpg", "Marczoutendijk", "CC BY-SA 4.0", "Un poble abandonat a l'interior peninsular."),
+      ("Fornalutx in Majorca (Placa d'Espagna) arp.jpg", "Adrian Pingstone", "Domini públic", "La plaça de Fornalutx.")],
+ 16: [("Curro Claret.jpg", "Lagordadepap", "CC BY-SA 3.0", "Curro Claret, dissenyador que col·labora amb Arrels Fundació.")],
+ 17: [("BILLBOARDS AND ADVERTISING CLUTTER ROADSIDE - NARA - 546184.jpg", "Marc St. Gil / NARA", "Domini públic", "Tanques publicitàries a la vora d'una carretera.")],
+ 18: [("Anti-cuts and tuition fees, Dayx3.jpg", "UCL Occupation", "CC BY-SA 2.0", "Protesta estudiantil contra les taxes universitàries.")],
+ 19: [("HfG Ulm Main Entrance photo by Christian Gänshirt.JPG", "Christian Gänshirt", "CC BY-SA 4.0", "Entrada de l'Escola de Disseny d'Ulm, on es va formar Bonsiepe."),
+      ("Cybersyn-detalle1.jpg", "Farisori", "CC BY 4.0", "Detall de la sala d'operacions de Cybersyn.")],
+ 20: [("Montana Meth Project mural - Drummond Montana.jpg", "Tedder", "CC BY 3.0", "Mural del Montana Meth Project.")],
+ 21: [("Anti-Homeless Floor Spikes.jpg", "Cory Doctorow", "CC BY-SA 2.0", "Pues antipersones a l'entrada d'un edifici."),
+      ("Plzen benches hostile architecture.jpg", "ChickSR", "CC BY-SA 4.0", "Bancs amb separadors a Plzeň.")],
+ 22: [("WTBBL large print stacks 01.jpg", "Joe Mabel", "CC BY-SA 3.0", "Prestatgeries de llibres en lletra grossa en una biblioteca.")],
+ 23: [("Takatori Catholic Church.JPG", "Bujdosó Attila", "CC BY-SA 2.5", "L'església de paper de Shigeru Ban a Kobe, després del terratrèmol de 1995."),
+      ("2024 nov 18 DANA Valencia ONG World Central Kitchen 16.jpg", "Bgasco", "CC BY-SA 4.0", "Resposta ciutadana després de la DANA de València, 2024.")],
+ 24: [("Plastic waste 20231006 175234.jpg", "Ka23 13", "CC BY-SA 4.0", "Residus d'envasos de plàstic."),
+      ("Four different bottle return deposit schemes from four countries, Winschoten (2022) 01.jpg", "Donald Trung Quoc Don", "CC BY-SA 4.0", "Ampolles amb sistemes de retorn de quatre països.", "v")],
+ 25: [("Bauhaus-Dessau main building.jpg", "Wikimedia Commons", "Domini públic", "L'edifici de la Bauhaus a Dessau.")],
+ 26: [("Rammed earth wall - Eden Project.jpg", "Eden Project", "CC BY-SA 2.0", "Mur de terra piconada.", "v"),
+      ("Formentera. Sant Ferran de les Roques. Església.jpg", "Joan Gené", "CC0", "Sant Ferran de ses Roques, Formentera.")],
+ 27: [("Vignelli 2008 Subway Map.jpg", "section215", "CC BY 2.0", "La revisió del mapa de metro de Vignelli, 2008."),
+      ("Lift signage Dr James Mayne Building Royal Brisbane and Women's Hospital Herston P1110845.jpg", "John Robert McPherson", "CC0", "Senyalística d'un hospital.")],
+ 28: [("Street name in French and Catalan, Pollestres.jpg", "Ianaré Sévi", "CC BY-SA 4.0", "Rètol en francès i català a Pollestres, Catalunya del Nord."),
+      ("Cherokee Hills Byway - Cherokee Nation Tribal Complex - NARA - 7717605.jpg", "NARA", "Domini públic", "Rètol a la Nació Cherokee.")],
+ 29: [("Anthem of the Seas - Cruise Ship in Palma de Mallorca.jpg", "Javier Pérez Montes", "CC BY-SA 4.0", "Un creuer al port de Palma."),
+      ("Azulejo facade of the Capela das Almas in Porto (4).jpg", "Krzysztof Golik", "CC BY-SA 4.0", "Les rajoles de la Capela das Almas, a Porto, font de la identitat de la ciutat.")],
+ 30: [("CERN, Genéve (46877471004).jpg", "Torbjorn Toby Jorgensen", "CC BY-SA 2.0", "El CERN, que publica una llicència de maquinari obert."),
+      ("3-D Printed Prosthetic Hand (5229) (18306292659).jpg", "U.S. FDA", "Domini públic", "Una mà protètica impresa en 3D.")],
+ 31: [("Playground equipment in Munich 02.jpg", "Kritzolina", "CC BY-SA 4.0", "Un parc infantil homologat."),
+      ("School playground, Olvi-Pius X secondary school, Zele, 2007.jpg", "DimiTalen", "CC0", "Un pati escolar.")],
+ 32: [("World Health Organisation headquarters, Geneva, north and west sides 2007.jpg", "Yann Forget", "CC BY-SA 3.0", "Seu de l'Organització Mundial de la Salut, a Ginebra.")],
+}
+
+
+# Imatges d'Are.na (substitueixen IMG i INLINE per als articles que hi són)
+# h = (bloc, clau, text alternatiu, object-position); a/b = (bloc, clau, peu, 'v' si és vertical, amplada original)
+ARENA = {
+ 1: {
+   'h': ('31367427', '31367427/original_40192d341c47e5e534f5c092f911f395.jpg', 'Mur de pedra en sec.', '50% 50%'),
+   'a': ('local', 'img/margers-tramuntana.jpg', "Refent un marge de pedra en sec a la Serra de Tramuntana.", '', 1048),
+   'b': ('43975116', '43975116/original_7d7372584881d0fd15d6d38ce702fce2.jpg', 'Teixit ikat: el fil es tenyeix abans de teixir.', '', 1400),
+ },
+ 2: {
+   'h': ('10314930', '10314930/original_61a2dd63892838a11c93f17b173c9242.png', 'Mapa de soroll urbà.', '50% 50%'),
+   'a': ('6037938', '6037938/original_24f8f0811b0dc902508c1f4cb75252a7.jpg', "Un mapa sonor: el renou dibuixat per qui l'escolta.", '', 564),
+   'b': ('27397862', '27397862/original_ece547df4128575321bef5358ff49f5e.png', 'Mesurar el soroll del propi carrer.', 'v', 1050),
+ },
+ 3: {
+   'h': ('35680661', '35680661/original_a1f157392f3cc33b6b7a477fa58d4a9b.jpg', "Cartell d'estil suís.", '50% 50%'),
+   'a': ('14122095', '14122095/original_2c27aa2c1cc7dcc6e134ae1aa53983b2.jpg', 'El mapa del metro de Nova York de Massimo Vignelli.', '', 1024),
+   'b': ('49528145', '49528145/original_2287b56c691b1ae88b37fc13a1f911fb.jpeg', "Tipus mòbils d'impremta.", '', 1400),
+ },
+ 4: {
+   'h': ('1038289', '1038289/original_1cfdd23a5ac5061fce008336805f4e98', 'Reparar en lloc de substituir.', '50% 50%'),
+   'a': ('40537120', '40537120/original_c872dafcac413016268a86d817d2c44c.jpg', "Biblioteques d'objectes: compartir en lloc de comprar.", 'v', 1050),
+   'b': ('46302231', '46302231/original_fb73ac892684830820260518-2-i4u9td.png', 'Un repair café: reparar en comunitat.', 'v', 720),
+ },
+ 5: {
+   'h': ('3121874', '3121874/original_b5063d0283abe9c0e51b0160eebce081.png', 'La cadira Thonet núm. 14.', '50% 50%'),
+   'a': ('19814005', '19814005/original_d7b5f91d5fca21987e131d5541444568.png', 'El Porsche 911: dècades de variacions sobre la mateixa forma.', 'v', 800),
+ },
+ 6: {
+   'h': ('7571904', '7571904/original_8dad43c507785a6c73150a10870751dd.jpg', "El temps d'un estudi, dia a dia.", '50% 50%'),
+   'a': ('10392257', '10392257/original_9c46114f274fd924d641d327ce8378b0.jpg', 'El compromís només es compleix si entra al calendari.', '', 1400),
+ },
+ 7: {
+   'h': ('42220646', '42220646/original_057c1a8a3a2ce2994b769b7b38934c72.jpg', 'El compromís convertit en imatge.', '50% 50%'),
+   'a': ('3745146', '3745146/original_45054f17acc5ee172914859f3e43b1b9.png', "L'ós polar, icona preferida de les campanyes verdes.", '', 818),
+ },
+ 8: {
+   'h': ('2333148', '2333148/original_04798bd0d14775622431abb8f7758c65.jpg', 'La protesta convertida en tanca publicitària.', '50% 50%'),
+   'b': ('4284743', '4284743/original_b1a8b38d257ed2e5afabd3b7f1cd8086.jpg', '«Believe in something»: la campanya de Nike amb Colin Kaepernick.', 'v', 675),
+ },
+ 9: {
+   'h': ('47816206', '47816206/original_73d7f2d6f0fb0fee7310bea34541379f.png', 'Un patró enganyós: urgència fabricada.', '50% 50%'),
+   'a': ('48278354', '48278354/original_e3846ba19981f47f2062e9adca7bd869.png', 'El bàner de galetes, camp de batalla del consentiment.', '', 1400),
+ },
+ 10: {
+   'h': ('7112968', '7112968/original_6086d1a5a6e59abcd4154335ae9ec94a.jpg', 'Centre de dades: el núvol té un cost material.', '50% 50%'),
+   'a': ('18510454', '18510454/original_a1d14753213fa5ebbcaba915549bf9e3.jpg', 'Imatge sintètica.', '', 480),
+ },
+ 11: {
+   'h': ('50359759', '50359759/original_7a727230cc3fe4026115a81cc0d878b0.svg', 'Un servei públic ben dissenyat.', '50% 50%'),
+   'a': ('44288602', '44288602/original_70346907fc8dde7a20260310-2-enhxa2.png', 'Dissenyar el servei, no només la peça.', '', 1400),
+   'b': ('44314863', '44314863/original_9defb17cbdc883f5210e1d49c0c5fac0', 'Senyalística de carretera britànica, de Margaret Calvert i Jock Kinneir.', '', 1400),
+ },
+ 12: {
+   'h': ('21560203', '21560203/original_2e69f076fbe76572f3567a7a9dc03f76.jpg', 'Un estri pensat per a mans de totes les edats.', '50% 50%'),
+   'a': ('5655456', '5655456/original_912ee0a9e81119fe17f9115b37293e5d.jpg', 'Patricia Moore.', '', 480),
+   'b': ('14227280', '14227280/original_ebcf32da4726ca4320211203-4-1xh4m7x.jpg', 'Disseny inclusiu: dissenyar per als extrems.', 'v', 1024),
+ },
+ 13: {
+   'h': ('49699272', '49699272/original_a5e6dee6266f2c6257d275893c027240.jpeg', 'Habitatge cooperatiu.', '50% 50%'),
+   'a': ('49797574', '49797574/original_bac1527e488c5c6750d39b3af46deffa.jpeg', 'Habitatge social.', '', 1000),
+   'b': ('49699293', '49699293/original_7f81de25c7df82a4d4a96ccd300af95f.webp', 'La tinença col·lectiva també és matèria de projecte.', '', 1200),
+ },
+ 14: {
+   'h': ('27668980', '27668980/original_a056456825247580a19137a233148dcc.png', 'Els retrats de dades de W. E. B. Du Bois, 1900.', '50% 50%'),
+   'a': ('4860310', '4860310/original_e2f39eb8e85b0bc9fad697011f608c63.jpg', "Forensic Architecture: l'arquitectura com a mètode de prova.", '', 700),
+ },
+ 15: {
+   'h': ('1103097', '1103097/original_6d76517cba5df06f6186dcd89621cd32', "Un poble vist des de l'aire.", '50% 50%'),
+   'a': ('38125513', '38125513/original_8e9a1c5b1c8577ff807bd322c1a899c2.jpg', 'La botiga del poble, infraestructura social.', '', 1313),
+   'b': ('50060588', '50060588/original_7c2edbe44f4fe29994971ff612c760e6.png', 'Deià, a la Serra de Tramuntana.', '', 1400),
+ },
+ 16: {
+   'h': ('4430900', '4430900/original_8283dadd436904036b9a8867d7814a57.png', 'Un taller de co-disseny.', '50% 50%'),
+   'a': ('5548759', '5548759/original_e23e29a85de30a5264567f45ef97f505.jpg', "L'escala de la participació ciutadana de Sherry Arnstein.", 'v', 1206),
+   'b': ('1197545', '1197545/original_7bd74d4d2ce256e034587383cb6216f3', 'Disseny participatiu.', '', 1280),
+ },
+ 17: {
+   'h': ('12030084', '12030084/original_7e73731a82aa83053dab695ccb5f12f8.jpg', 'Ken Garland, autor del manifest First Things First.', '50% 50%'),
+   'a': ('279130', '279130/original_94bda2bd3d62a77b12e32bfdbfe5b71e.jpg', 'El manifest First Things First, 1964.', '', 750),
+   'b': ('3782579', '3782579/original_b79af202451f511420190304-4-1ddsm3l.jpg', '«Bullshit jobs», de David Graeber.', 'v', 1024),
+ },
+ 18: {
+   'h': ('5258177', '5258177/original_c4f12ab5a9d14f6cd86e00fe3bd41066.png', 'Una escola de disseny.', '50% 50%'),
+   'b': ('1085147', '1085147/original_20a6ebe5068e4af3017b7f03f0ccdaaa.png', "Pràctiques no remunerades: el peatge per entrar a l'ofici.", 'v', 982),
+ },
+ 19: {
+   'h': ('37027357', '37027357/original_28a57ef1b3db78ba3bc58d9db2eddd94.jpg', "L'Escola de Disseny d'Ulm.", '50% 50%'),
+   'a': ('5256976', '5256976/original_ccd2dd342aa9f80dcebd4ff6ea1784b3.jpg', "La sala d'operacions de Cybersyn, Xile, 1972.", '', 764),
+   'b': ('3389406', '3389406/original_588021fa22c6af1d78eca9a7de18feb3.jpg', "L'Escola de Disseny d'Ulm.", '', 1400),
+ },
+ 20: {
+   'h': ('4150679', '4150679/original_09bcf2d6cabc8c3720190424-4-1pk8j1v.jpg', '«Nudge», el llibre de Thaler i Sunstein.', '50% 50%'),
+   'b': ('41736193', '41736193/original_23330c657cbabbd92b0791c51cb5a74f.png', 'Una campanya de salut pública que no culpabilitza.', 'v', 800),
+ },
+ 21: {
+   'h': ('40661211', '40661211/original_e535d70dd55b3c910b13e565234b6cb6.png', 'Arquitectura hostil.', '50% 50%'),
+   'a': ('246198', '246198/original_9a9ad54bc5d0da5c126f20426f8c34ac.jpg', 'El banc de Camden.', '', 712),
+   'b': ('21609142', '21609142/original_7c0b4a0f17756e7cc07320bda32afbfa.png', 'Púas antipersones.', 'v', 490),
+ },
+ 22: {
+   'h': ('2274400', '2274400/original_da1d7a5a7618a2641d4bcdeacb466f87.png', 'Braille Neue, de Kosuke Takahashi.', '50% 50%'),
+   'a': ('28740474', '28740474/original_a7b6109bb4b9b0750a14eb5823df56b5.png', 'La llegibilitat comença pel cos i el contrast.', '', 1256),
+   'b': ('8576451', '8576451/original_14834bed9e12c5de20200906-4-ti7kyh.jpg', 'Un document en lectura fàcil.', 'v', 990),
+ },
+ 23: {
+   'h': ('7450385', '7450385/original_0fcb1a67b6960141d885b23e41667ae2.png', "Better Shelter, el refugi d'IKEA i ACNUR.", '50% 50%'),
+   'a': ('1465448', '1465448/original_65d106ec19c51644ee1cd64b1d774bfb.jpg', 'Arquitectura de paper de Shigeru Ban.', '', 1200),
+   'b': ('1465453', '1465453/original_5654f3e09a6bd9ae03e27b3646c8ed0c.jpg', "Particions de paper per a refugis d'emergència.", '', 650),
+ },
+ 24: {
+   'h': ('4153415', '4153415/original_56d58042bdc7f8b7b01243c1ded00395.png', 'Envasos reutilitzables.', '50% 50%'),
+   'a': ('3113074', '3113074/original_177fd9bb20868e16a27caa314dbb63db.jpg', "Residu d'envàs.", '', 480),
+   'b': ('6479675', '6479675/original_e0c03c3757ae2da28e9578aa6fd99a7e.jpg', 'Una ampolla retornable.', 'v', 564),
+ },
+ 25: {
+   'h': ('49079799', '49079799/original_46348ee8dbd8bb79167a542d1bc24b5c.jpeg', 'Premis de disseny.', '50% 50%'),
+   'b': ('5010815', '5010815/original_27fa81c55f0fa169f04eb81b728dbb02.jpg', 'La Bauhaus.', 'v', 1053),
+ },
+ 26: {
+   'h': ('13607481', '13607481/original_33e5e5bbbefe5d8419ea1376fe9e2f49.png', 'Posidònia: un residu del territori que també és matèria.', '50% 50%'),
+   'a': ('36016526', '36016526/original_c45a6119cc554f3876a40810b05fa469.jpg', 'El Kräuterzentrum de Ricola, de terra piconada.', 'v', 736),
+   'b': ('721207', '721207/original_42c5f3ab41f37e6960de932263249229.jpg', 'Construcció amb terra.', '', 640),
+ },
+ 27: {
+   'h': ('2301533', '2301533/original_67b029e84461eb17c255abd936067161.png', "Senyalística d'hospital.", '50% 50%'),
+   'a': ('49309436', '49309436/original_c34176cacd6d42bcee0e4a0d7340457f.jpeg', 'El manual de senyalística del metro de Nova York.', '', 640),
+   'b': ('2558413', '2558413/original_50243c6c545dcd3392a0903b194d9d65.jpg', "Orientar-se és un dret d'accés.", '', 736),
+ },
+ 28: {
+   'h': ('21113527', '21113527/original_980aae1cb073905a186333d1f0c41a20.png', 'Rètols en diverses llengües.', '50% 50%'),
+   'a': ('46523168', '46523168/original_80ee9600d45fecf173a9aef808ba9b14.png', 'Una llengua desapareix del paisatge abans que de la conversa.', '', 482),
+ },
+ 29: {
+   'h': ('15959107', '15959107/original_1cb0fa43d614447b97e0b4a6c6081414.webp', "Identitat visual d'Amsterdam.", '50% 50%'),
+   'a': ('11153456', '11153456/original_2424508c8959669dbe6cc39d7e2218fe.jpg', "Identitat d'una ciutat.", '', 1400),
+ },
+ 30: {
+   'h': ('9806246', '9806246/original_f6bc9be3a0d495e7d639908006932b7f.png', 'Precious Plastic: màquines de reciclatge de codi obert.', '50% 50%'),
+   'a': ('1657776', '1657776/original_c69c4f53225a9db59a632e08543eeceb.jpg', 'Mobiliari de disseny obert.', '', 818),
+   'b': ('1135408', '1135408/original_0225238f41a06b7d16063a6353125084', 'Opendesk: plànols per fabricar a prop.', '', 1280),
+ },
+ 31: {
+   'h': ('2706812', '2706812/original_f23426a6012fd667f5988084bf64bedb.jpg', 'Un espai de joc.', '50% 50%'),
+   'a': ('4451270', '4451270/original_84f9cd32285fccdae5ff79b9493f0ac3.jpg', "Un parc d'aventura.", '', 480),
+   'b': ('955240', '955240/original_fc1935739f006c36c2fe180ae113712e.jpg', 'Un pati escolar.', '', 800),
+ },
+ 32: {
+   'h': ('13752004', '13752004/original_0f161e77a6e003da698f56f57d12cb71.jpg', 'Representar la salut mental sense estereotips.', '50% 50%'),
+   'a': ('24880517', '24880517/original_943e50b020b3e42d48f05505a213ce0d.jpg', 'Una campanya de salut mental.', '', 1400),
+ },
+}
+
+# Imatge destacada animada (1 de cada 3 articles): (bloc d'Are.na, URL del GIF, text alternatiu)
+_CF = "https://d2w9rnfcy7mm78.cloudfront.net/"
+GIF = {
+ 1: ("8920049", _CF + "8920049/original_ac2aaf5346ca84510508ab0ba9873e63.gif", "Animació d'un teixit en blanc i negre"),
+ 4: ("12203199", _CF + "12203199/original_325de27062df28c89b549cd975a798b6.gif", "Animació sobre reciclatge"),
+ 7: ("15681360", _CF + "15681360/original_4f3e448087d75ddcba248fe04bf990ca.gif", "Un prisma que descompon la llum en un arc de Sant Martí"),
+ 10: ("796606", _CF + "796606/original_8d89f0bdefdae4dbd2f47497fe3396af.gif", "Servidors animats"),
+ 13: ("16552238", _CF + "16552238/original_7a3a48dc585d4d4203aed7ba1b053ef4.gif", "Cases apilades en una torre"),
+ 16: ("9471200", _CF + "9471200/original_33e7b5bf5951a721647d387f86bd6046.gif", "Una mà en moviment"),
+ 19: ("1007064", _CF + "1007064/original_1c2a8f601d34227f356da9ba754df329.gif", "Dades en tres dimensions, en colors"),
+ 22: ("30224450", _CF + "30224450/original_2413f796e051aeef5b6d1b968d8d14fd.gif", "Punts de braille animats"),
+ 25: ("17155789", _CF + "17155789/original_3461d5dde8cfe16592637aff06b30395.gif", "Un trofeu dibuixat"),
+ 28: ("421906", _CF + "421906/original_f1703e31856edfbc3394a88b1515299c.gif", "Mostrari tipogràfic animat"),
+ 31: ("35703363", _CF + "35703363/original_ed74eb04429cd2aecb9df122e797e8cb.gif", "Figures jugant"),
+ 9: ("22557163", _CF + "22557163/original_5e59e7e250765340e72cea33d931032f.gif", "Un indicador de càrrega que no acaba mai"),
+ 12: ("17513045", _CF + "17513045/original_55d92d50e2bc5c06d23c24e3c6471d5b.gif", "Una figura il·lustrada caminant"),
+ 14: ("2126880", _CF + "2126880/original_f8077420983169a1610440253a10408b.gif", "Un gràfic circular animat en roses i vermells"),
+ 26: ("711994", _CF + "711994/original_750c900ea9be06396ea529dda1c0a2b8.gif", "Un paisatge isomètric amb terrasses verdes"),
+ 30: ("2258520", _CF + "2258520/original_106b2e874b09abbb563b4865ca4f4b8d.gif", "Blocs de construcció isomètrics en vermell i blau"),
+ 32: ("38291815", _CF + "38291815/original_22452ae0dab35a6ee88f7bba67872745.gif", "Formes blaves que respiren"),
+}

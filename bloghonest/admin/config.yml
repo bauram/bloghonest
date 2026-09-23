@@ -1,0 +1,47 @@
+# Decap CMS — panell per escriure i editar els articles del blog
+# S'hi entra a https://<el-teu-blog>/admin/ amb el compte de GitHub.
+backend:
+  name: github
+  repo: bauram/bloghonest
+  branch: main
+  commit_messages:
+    create: "Nou article: {{slug}}"
+    update: "Edita l'article: {{slug}}"
+    delete: "Esborra l'article: {{slug}}"
+    uploadMedia: "Puja la imatge {{path}}"
+
+locale: ca
+site_url: https://honestpg.com/blog
+logo_url: https://www.honestpg.com/favicon.svg
+
+media_folder: img          # on es guarden les imatges pujades
+public_folder: /img        # com s'hi enllaça des de la web
+
+collections:
+  - name: articles
+    label: Articles
+    label_singular: Article
+    folder: articles
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    summary: "{{title}} · {{fecha_creacion}}"
+    sortable_fields: [fecha_creacion, title]
+    fields:
+      - { label: "Títol (Concepte: formulació)", name: title, widget: string,
+          hint: "Ex.: «Infradissenyar: el decreixement com a criteri de projecte». La primera part surt com a etiqueta." }
+      - { label: "Titular gancho (opcional)", name: titular, widget: string, required: false,
+          hint: "El titular gran que surt a la portada. Si el deixes buit, s'usa el títol." }
+      - { label: "Subtítol", name: subtitol, widget: string, required: false,
+          hint: "Una línia que inclogui «disseny social»." }
+      - { label: "Imatge destacada", name: imatge, widget: image, required: false }
+      - { label: "Data", name: fecha_creacion, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+      - { label: "Autor", name: autor, widget: string, default: "Manuel Bauzà Ramis" }
+      - { label: "Temes", name: tags, widget: list, default: ["disseny-social"],
+          hint: "Separats per comes, en minúscules i amb guions (ex.: disseny-social, mallorca)." }
+      - { label: "Estat", name: estado, widget: select, options: ["borrador", "publicat"], default: "borrador" }
+      - { label: "Tipus", name: type, widget: hidden, default: "articulo" }
+      - { label: "Fonts (URLs)", name: fonts, widget: list, required: false }
+      - { label: "Text", name: body, widget: markdown,
+          hint: "Tres seccions amb títol ## i 900-1000 paraules. No cal repetir el títol a dalt." }
