@@ -11,7 +11,7 @@ backend:
     uploadMedia: "Puja la imatge {{path}}"
 
 locale: ca
-site_url: https://honestpg.com/blog
+site_url: https://blogawd.netlify.app
 logo_url: https://www.honestpg.com/favicon.svg
 
 media_folder: img          # on es guarden les imatges pujades
