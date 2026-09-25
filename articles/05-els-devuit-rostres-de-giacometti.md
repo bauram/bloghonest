@@ -3,7 +3,7 @@ title: "Redissenyar: la variació com a alternativa a la novetat contínua"
 type: articulo
 tags: [disseny-social, redisseny, variacio, fast-design, giacometti, thonet, tipografia]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-08
+fecha_creacion: 2026-08-05
 estado: borrador
 fonts:
   - https://us.macmillan.com/books/9780374515737/agiacomettiportrait/

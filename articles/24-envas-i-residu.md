@@ -3,7 +3,7 @@ title: "Envàs i residu: l'asimetria entre un minut i uns quants segles"
 type: articulo
 tags: [disseny-social, envas, residus, packaging, reutilitzacio]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2025-12-06
 estado: borrador
 fonts:
   - https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Packaging_waste_statistics

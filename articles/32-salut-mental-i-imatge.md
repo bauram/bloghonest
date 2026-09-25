@@ -3,7 +3,7 @@ title: "Representar: la imatge de la salut mental com a decisió de projecte"
 type: articulo
 tags: [disseny-social, salut-mental, representacio, estigma, comunicacio-responsable]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2025-08-31
 estado: borrador
 fonts:
   - https://www.who.int/publications/i/item/9789240076846

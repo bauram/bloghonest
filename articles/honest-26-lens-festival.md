@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, interaccio, ia, disseny-especulatiu, instal·lacio, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2024-10-07
 estado: publicat
 projecte_honest: "Instal·lació al Lens Festival"
 fonts:

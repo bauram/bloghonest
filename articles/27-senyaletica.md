@@ -3,7 +3,7 @@ title: "Senyalística: l'orientació com a dret d'accés"
 type: articulo
 tags: [disseny-social, senyalística, accessibilitat, serveis-públics, sistema]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2025-11-03
 estado: borrador
 fonts:
   - https://journals.sagepub.com/doi/10.1177/19375867251317240

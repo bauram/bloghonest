@@ -3,7 +3,7 @@ title: "Activisme de marca: la crítica convertida en producte"
 type: articulo
 tags: [disseny-social, artivisme, activisme-de-marca, contracultura, ètica, publicitat, integritat]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-08
+fecha_creacion: 2026-06-30
 estado: borrador
 fonts:
   - https://en.wikipedia.org/wiki/The_Rebel_Sell

@@ -3,7 +3,7 @@ title: "Paisatge lingüístic: la llengua com a material de projecte"
 type: articulo
 tags: [disseny-social, llengua, tipografia, senyalitzacio, retolacio, mallorca]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2025-10-18
 estado: borrador
 fonts:
   - https://journals.sagepub.com/doi/10.1177/0261927X970161002

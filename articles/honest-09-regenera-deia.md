@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, marca-de-lloc, comunitat, turisme, territori, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2025-05-14
 estado: publicat
 projecte_honest: "Regenera Deià"
 fonts:

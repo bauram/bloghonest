@@ -3,7 +3,7 @@ title: "Engranatge: la utilitat social com a criteri econòmic del disseny"
 type: articulo
 tags: [disseny-social, ètica, economia, professió, precarietat]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2026-03-02
 estado: borrador
 fonts:
   - https://en.wikipedia.org/wiki/Bullshit_Jobs

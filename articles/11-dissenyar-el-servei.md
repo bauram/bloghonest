@@ -3,7 +3,7 @@ title: "Dissenyar el servei: la relació com a matèria de projecte"
 type: articulo
 tags: [disseny-social, service-design, disseny-de-sistemes, serveis-públics, coproducció, concordança, amabilitat, innovació-pública]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-08
+fecha_creacion: 2026-05-19
 estado: borrador
 fonts:
   - https://www.hilarycottam.com/radical-help/

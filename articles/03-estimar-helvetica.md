@@ -3,7 +3,7 @@ title: "Neutralitat: els límits d'una forma que aspira a no significar"
 type: articulo
 tags: [disseny-social, helvetica, disseny-suis, tipografia, disseny-de-proximitat, disseny-vernacle, mallorca, contradiccio]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-08
+fecha_creacion: 2026-09-02
 estado: borrador
 fonts:
   - https://www.neugraphic.com/muller-brockmann/muller-brockmann-text2.html

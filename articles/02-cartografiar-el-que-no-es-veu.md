@@ -3,7 +3,7 @@ title: "Cartografiar l'invisible: la dada com a instrument de decisió col·lect
 type: articulo
 tags: [disseny-social, visualitzacio-de-dades, renou, salut-publica, ciencia-ciutadana, disseny-de-proximitat, ciutat]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-08
+fecha_creacion: 2026-09-13
 estado: borrador
 fonts:
   - https://www.eea.europa.eu/en/analysis/publications/health-risks-caused-by-environmental-noise-in-europe

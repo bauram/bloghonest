@@ -3,7 +3,7 @@ title: "Espai de joc: la infància com a mesura de la ciutat"
 type: articulo
 tags: [disseny-social, espai-public, infancia, joc, mobilitat, patis-escolars]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2025-09-14
 estado: borrador
 fonts:
   - https://www.lacittadeibambini.org/en/project/

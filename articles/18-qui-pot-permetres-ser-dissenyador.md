@@ -3,7 +3,7 @@ title: "Accés: la composició social de qui dissenya decideix per a qui es diss
 type: articulo
 tags: [disseny-social, accés, formació, territori, professió]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2026-02-26
 estado: borrador
 fonts:
   - https://www.elisava.net/en/matricula/

@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, premsa, editorial, llengua, paper, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2024-11-18
 estado: publicat
 projecte_honest: "Dissenys per a dBalears"
 fonts:

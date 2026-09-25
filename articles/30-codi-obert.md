@@ -3,7 +3,7 @@ title: "Disseny obert: el projecte com a bé comú"
 type: articulo
 tags: [disseny-social, disseny-obert, procomu, llicencies, replicabilitat, fabricacio-distribuida]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2025-09-24
 estado: borrador
 fonts:
   - https://en.wikipedia.org/wiki/CERN_Open_Hardware_Licence

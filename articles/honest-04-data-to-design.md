@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, visualitzacio-de-dades, clima, ia, recerca, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2025-07-09
 estado: publicat
 projecte_honest: "Data to Design"
 fonts:

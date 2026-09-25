@@ -3,7 +3,7 @@ title: "Patrons enganyosos: usabilitat girada contra l'usuari"
 type: articulo
 tags: [disseny-social, dark-patterns, ètica, disseny-digital, interfície, integritat, regulació]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-08
+fecha_creacion: 2026-06-11
 estado: borrador
 fonts:
   - https://deceptive.design/about-us/dr-harry-brignull/

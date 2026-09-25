@@ -3,7 +3,7 @@ title: "Marca de lloc: la identitat d'un territori i la qüestió del destinatar
 type: articulo
 tags: [disseny-social, marca-de-lloc, territori, turisme, identitat, mallorca]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2025-10-06
 estado: borrador
 fonts:
   - https://www.dezeen.com/2018/12/05/i-amsterdam-sign-removed-council-mass-tourism/

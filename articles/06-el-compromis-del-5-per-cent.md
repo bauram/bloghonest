@@ -3,7 +3,7 @@ title: "El compromís del 5%: el temps professional com a partida fixa"
 type: articulo
 tags: [disseny-social, metode, pro-bono, be-comu, tercer-sector, etica-professional, mallorca]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-08
+fecha_creacion: 2026-07-23
 estado: borrador
 fonts:
   - https://en.wikipedia.org/wiki/One_Percent_for_the_Planet

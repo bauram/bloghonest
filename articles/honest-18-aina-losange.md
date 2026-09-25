@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, reutilitzacio, escenografia, musica, economia-circular, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2025-01-18
 estado: publicat
 projecte_honest: "Videoclip Aina Losange"
 fonts:

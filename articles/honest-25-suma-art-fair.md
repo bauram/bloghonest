@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, muntatge, treball, exposicions, ofici, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2024-10-24
 estado: publicat
 projecte_honest: "Margarito de la Guetto · SUMA Art Fair"
 fonts:

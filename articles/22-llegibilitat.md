@@ -3,7 +3,7 @@ title: "Llegibilitat: la condició material de l'accés a la informació"
 type: articulo
 tags: [disseny-social, llegibilitat, tipografia, accessibilitat, lectura-facil]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2026-01-01
 estado: borrador
 fonts:
   - https://www.w3.org/WAI/WCAG22/Techniques/general/G18

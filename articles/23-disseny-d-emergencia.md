@@ -3,7 +3,7 @@ title: "Disseny d'emergència: el projecte en condicions de col·lapse"
 type: articulo
 tags: [disseny-social, emergencia, allotjament, dana, shigeru-ban]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2025-12-22
 estado: borrador
 fonts:
   - https://www.dezeen.com/2017/04/27/ikea-unhcr-refugee-better-shelter-redesign-safety-fears-flaws/

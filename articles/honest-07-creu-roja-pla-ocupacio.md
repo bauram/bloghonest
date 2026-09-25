@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, representacio, video, dignitat, tercer-sector, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2025-06-03
 estado: publicat
 projecte_honest: "Pla d'Ocupació · Creu Roja"
 fonts:
