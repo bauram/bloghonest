@@ -3,7 +3,7 @@ title: "Co-disseny: la participació com a mètode, no com a gest"
 type: articulo
 tags: [disseny-social, co-disseny, participació, mètode, comunitat]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2026-03-20
 estado: borrador
 fonts:
   - https://www.arrelsfundacio.org/es/taburetes-con-trasfondo-social/

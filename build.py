@@ -80,7 +80,7 @@ def slugify(s):
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")[:60]
 
 def _sources():
-    """Articles numerats (NN-slug.md) i, despres, els nous del CMS (slug.md) per data."""
+    """Articles numerats (NN-slug.md) i, despres, els nous del CMS (slug.md) per data (mes recents primer)."""
     num_files, new_files = [], []
     for path in glob.glob(os.path.join(SRC, "*.md")):
         fn = os.path.basename(path)
@@ -94,7 +94,7 @@ def _sources():
     def fdate_of(p):
         m = re.search(r"^fecha_creacion:\s*['\"]?([0-9-]+)", open(p, encoding="utf-8").read(), re.M)
         return (m.group(1) if m else "9999", p)
-    for i, path in enumerate(sorted(new_files, key=fdate_of)):
+    for i, path in enumerate(sorted(new_files, key=fdate_of, reverse=True)):
         num_files.append((last + 1 + i, os.path.basename(path)[:-3], path))
     return num_files
 
@@ -607,7 +607,7 @@ class Links:
 def card(a, L, tag="li", top=False):
     return (f'<{tag} class="card"{" data-top" if top else ""} data-tags="{e(" ".join(a["tags"]))}"><a href="{L.art(a["slug"])}">'
             f'{photo(a, width=800, caption=False)}'
-            f'<div class="k eyebrow"><span>{a["num"]:02d} · {e(a["concept"])}</span><span>{a["mins"]} min</span></div>'
+            f'<div class="k eyebrow"><span>{e(a["concept"])}</span><time datetime="{e(a["date"])}">{e(fdate(a["date"]))}</time></div>'
             f'<h3>{e(a["head"])}</h3><p>{e(a["form"])}</p></a></{tag}>')
 
 def index_body(arts, L):
@@ -624,7 +624,7 @@ def index_body(arts, L):
 <p class="eyebrow feat-label">Articles destacats</p>
 <a class="feat" href="{L.art(f['slug'])}">
   {photo(f, width=1280, eager=True, caption=False)}
-  <div><div class="k eyebrow"><span>{f['num']:02d} · {e(f['concept'])}</span><span>{f['mins']} min</span></div>
+  <div><div class="k eyebrow"><span>{e(f['concept'])}</span><time datetime="{e(f['date'])}">{e(fdate(f['date']))}</time></div>
   <h2>{e(f['head'])}</h2><p>{e(f['sub'] or f['form'])}</p></div>
 </a>
 <ul class="grid top3">{''.join(card(a, L) for a in arts[1:4])}</ul>
@@ -654,8 +654,8 @@ def article_body(a, arts, L):
         it = "".join(f'<li><a href="{e(u)}" rel="noopener" target="_blank"><span>{e(dom(u))}</span><span aria-hidden="true">↗</span></a></li>' for u in a["fonts"])
         fonts = f'<div><h2 class="sechead"><span>Fonts</span></h2><ul class="fonts">{it}</ul></div>'
     toc = "".join(f'<li><a href="#{i_}">{e(t)}</a></li>' for i_, t in a["toc"])
-    p = f'<a href="{L.art(prev["slug"])}"><span class="eyebrow">← Anterior · {prev["num"]:02d}</span><b>{e(prev["head"])}</b></a>' if prev else "<span></span>"
-    n = f'<a href="{L.art(nxt["slug"])}"><span class="eyebrow">Següent · {nxt["num"]:02d} →</span><b>{e(nxt["head"])}</b></a>' if nxt else "<span></span>"
+    p = f'<a href="{L.art(prev["slug"])}"><span class="eyebrow">← Anterior</span><b>{e(prev["head"])}</b></a>' if prev else "<span></span>"
+    n = f'<a href="{L.art(nxt["slug"])}"><span class="eyebrow">Següent →</span><b>{e(nxt["head"])}</b></a>' if nxt else "<span></span>"
     prose = a["html"]
     figs = INLINE.get(a["num"], [])
     if a["num"] in ARENA:
@@ -666,7 +666,7 @@ def article_body(a, arts, L):
     prose = re.sub(r"</p>\s*$", '<span class="endmark" aria-hidden="true"></span></p>', prose.strip())
     return f"""
   <header class="art-head">
-    <div class="crumb eyebrow"><a href="{L.home()}">← Blog</a><span>{a['num']:02d} · {e(a['concept'])}</span></div>
+    <div class="crumb eyebrow"><a href="{L.home()}">← Blog</a><span>{e(a['concept'])}</span></div>
     <h1 class="h1">{e(a['head'])}</h1>
     <p class="dek">{e(a['sub'] or a['form'])}</p>
     <div class="byline eyebrow">

@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, espai-public, ciutat, turisme, art-contemporani, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2025-03-18
 estado: publicat
 projecte_honest: "CUBE · Art contemporani"
 fonts:

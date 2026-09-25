@@ -3,7 +3,7 @@ title: "Disseny hostil: l'exclusió com a especificació de projecte"
 type: articulo
 tags: [disseny-social, disseny-hostil, espai-public, aporofobia, mobiliari-urba]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2026-01-11
 estado: borrador
 fonts:
   - https://en.wikipedia.org/wiki/Camden_bench

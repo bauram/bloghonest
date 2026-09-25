@@ -3,7 +3,7 @@ title: "El poble com a client: el territori com a destinatari del projecte"
 type: articulo
 tags: [disseny-social, territori, despoblament, comerç-de-proximitat, mallorca]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2026-04-02
 estado: borrador
 fonts:
   - https://laexclusiva.org/presentacion/

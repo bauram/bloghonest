@@ -3,7 +3,7 @@ title: "Perifèria: el disseny pensat des de fora del centre"
 type: articulo
 tags: [disseny-social, periferia, gui-bonsiepe, interficie, autonomia, ulm]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2026-02-05
 estado: borrador
 fonts:
   - https://www.hfg-ulm.info/en/retrospective_gui-bonsiepe.html

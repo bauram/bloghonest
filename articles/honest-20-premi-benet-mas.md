@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, ceramica, artesania, robotica, ia, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2024-12-27
 estado: publicat
 projecte_honest: "Premi Benet Mas de Ceràmica"
 fonts:

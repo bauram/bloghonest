@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, ia, biometria, etica, espai-public, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2025-02-19
 estado: publicat
 projecte_honest: "Nit de l'Art · Santanyí"
 fonts:

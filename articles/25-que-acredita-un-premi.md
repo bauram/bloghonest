@@ -3,7 +3,7 @@ title: "Acreditació: què certifica realment un premi de disseny"
 type: articulo
 tags: [disseny-social, premis, avaluació, impacte, mètode]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2025-11-26
 estado: borrador
 fonts:
   - https://designmuseum.org/beazley-designs-of-the-year-previous-winners

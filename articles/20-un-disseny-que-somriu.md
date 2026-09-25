@@ -3,7 +3,7 @@ title: "Un disseny que somriu: l'amabilitat com a criteri de projecte"
 type: articulo
 tags: [disseny-social, comunicacio, amabilitat, campanyes, humor-grafic]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2026-01-29
 estado: borrador
 fonts:
   - https://journals.sagepub.com/doi/10.1177/109019810002700506

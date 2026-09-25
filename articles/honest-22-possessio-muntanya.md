@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, rural, agricultura, oli, territori, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2024-11-28
 estado: publicat
 projecte_honest: "Pàgina web Possessió Muntanya"
 fonts:

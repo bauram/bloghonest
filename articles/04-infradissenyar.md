@@ -3,7 +3,7 @@ title: "Infradissenyar: el decreixement com a criteri de projecte"
 type: articulo
 tags: [disseny-social, infradisseny, decreixement, dret-a-reparar, mètode]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-08
+fecha_creacion: 2026-08-16
 estado: borrador
 fonts:
   - https://www.consilium.europa.eu/en/policies/right-to-repair-products/

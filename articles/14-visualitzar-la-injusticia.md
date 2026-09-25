@@ -3,7 +3,7 @@ title: "Visualitzar la injustícia: la dada com a instrument de prova"
 type: articulo
 tags: [disseny-social, visualització-de-dades, forensic-architecture, mètode, drets-humans]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2026-04-16
 estado: borrador
 fonts:
   - https://www.ica.art/exhibitions/forensic-architecture-counter-investigations/recent-investigations/the-murder-of-halit-yozgat

@@ -3,7 +3,7 @@ title: "Imatge sintètica: entre l'extractivisme cultural i l'autonomia"
 type: articulo
 tags: [disseny-social, ia-generativa, extractivisme, disseny-de-proximitat, sostenibilitat, imatge-sintetica]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-08
+fecha_creacion: 2026-06-05
 estado: borrador
 fonts:
   - https://copyrightalliance.org/andersen-v-stability-ai-copyright-case/

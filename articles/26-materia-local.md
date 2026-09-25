@@ -3,7 +3,7 @@ title: "Matèria local: el material com a decisió territorial"
 type: articulo
 tags: [disseny-social, material, territori, marès, construcció]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2025-11-18
 estado: borrador
 fonts:
   - https://www.getty.edu/news/why-earthen-architecture-may-be-a-big-part-of-our-future/

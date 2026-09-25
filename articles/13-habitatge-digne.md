@@ -3,7 +3,7 @@ title: "Habitatge digne: la matèria on el disseny troba el seu límit"
 type: articulo
 tags: [disseny-social, habitatge, cooperativisme, cessió-d-ús, mallorca]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-09
+fecha_creacion: 2026-04-30
 estado: borrador
 fonts:
   - https://www.ultimahora.es/noticias/local/2026/05/29/2639539/precio-vivienda-balears-bate-otro-record-supera-4170-euros-por-metro-cuadrado.html

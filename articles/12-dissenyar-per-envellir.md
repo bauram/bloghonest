@@ -3,7 +3,7 @@ title: "Dissenyar per envellir: la inclusió com a criteri de projecte"
 type: articulo
 tags: [disseny-social, disseny-inclusiu, envelliment, accessibilitat, balears, disseny-universal, concordança, amabilitat]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-08
+fecha_creacion: 2026-05-12
 estado: borrador
 fonts:
   - https://www.ine.es/dyngs/Prensa/PROP20262076.htm

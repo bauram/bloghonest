@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, ia, creenca, critica-cultural, art, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2024-09-26
 estado: publicat
 projecte_honest: "Hello God · Nit de l'Art de Campos"
 fonts:

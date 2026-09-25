@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, packaging, economia-circular, cooperativisme, territori, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2025-07-02
 estado: publicat
 projecte_honest: "Packaging Cooperativa NOMA"
 fonts:

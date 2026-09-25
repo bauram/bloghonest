@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, arquitectura-informacio, cultura, patrimoni, web, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2025-06-15
 estado: publicat
 projecte_honest: "Web de l'Estudi General Lul·lià"
 fonts:

@@ -3,7 +3,7 @@ title: "Socialwashing: el compromís convertit en peça de comunicació"
 type: articulo
 tags: [disseny-social, socialwashing, greenwashing, etica, integritat, marques, publicitat]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-08
+fecha_creacion: 2026-07-12
 estado: borrador
 fonts:
   - https://es.wikipedia.org/wiki/Equality_Stamps

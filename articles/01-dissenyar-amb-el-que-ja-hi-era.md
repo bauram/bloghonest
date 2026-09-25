@@ -3,7 +3,7 @@ title: "Reconèixer: el saber vernacle com a criteri de projecte"
 type: articulo
 tags: [disseny-social, disseny-vernacle, mallorca, sostenibilitat, artesania, disseny-de-proximitat, patrimoni]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-08-08
+fecha_creacion: 2026-09-23
 estado: borrador
 fonts:
   - https://teixitsvicens.com/en/

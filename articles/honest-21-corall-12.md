@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, espais, cowork, procomu, produccio, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2024-12-11
 estado: publicat
 projecte_honest: "Corall 12"
 fonts:

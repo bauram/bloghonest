@@ -6,7 +6,7 @@ type: articulo
 serie: honest
 tags: [disseny-social, sistemes, clima, comunicacio, cartellisme, projectes-honest]
 autor: "Manuel Bauzà Ramis"
-fecha_creacion: 2026-09-23
+fecha_creacion: 2025-01-07
 estado: publicat
 projecte_honest: "Acadèmia del Clima"
 fonts:
